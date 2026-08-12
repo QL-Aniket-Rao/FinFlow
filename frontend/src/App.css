@@ -1,0 +1,10 @@
+/* Basic global styling */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+}
+
+.App {
+  min-height: 100vh;
+}
