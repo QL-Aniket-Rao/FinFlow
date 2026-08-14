@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: backend-service
+  # PostgreSQL Configuration
+  datasource:
+    url: jdbc:postgresql://postgres:5432/mydb
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  # Redis Configuration
+  data:
+    redis:
+      host: redis
+      port: 6379
+
+# Server Port
+server:
+  port: 8080
+
+# Security Configuration Placeholder (for demonstration)
+spring:
+  security:
+    enabled: true
